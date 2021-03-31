@@ -7,20 +7,20 @@ import './lib/config/vant.js'
 console.log('执行');
 
 // 引入全局指令
-import './directives/index.js'
+import './lib/directives/index.js'
 
 // 引入全局过滤器
-import './filters/index.js'
+import './lib/filters/index.js'
 
 // 引入mixins全局
-import mixins from './mixins/index.js'
+import mixins from './lib/mixins/index.js'
 
 // 引入plugins文件
-import './plugins/fastclick/'
-import './plugins/axios.js'
-import './plugins/prototype.js'
-import './plugins/components.js'
-import router from './plugins/vueRouter'
+import './lib/plugins/fastclick/'
+import './lib/plugins/axios.js'
+import './lib/plugins/prototype.js'
+import './lib/plugins/components.js'
+import router from './lib/plugins/vueRouter'
 
 export {
   mixins,
