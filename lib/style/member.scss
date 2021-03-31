@@ -1,0 +1,80 @@
+.memberindex {
+  .vux-tab {
+    height: auto;
+    padding: 0.48rem 0;
+    background: none;
+  }
+  .vux-tab-ink-bar {
+    background: none;
+  }
+  .vux-tab-item {
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+  }
+  .tab-swiper {
+    padding-top: 7.04rem;
+  }
+
+  .vux-header {
+    padding: 0.08rem 0;
+  }
+  .vux-header .vux-header-left .left-arrow {
+    width: 0.8rem;
+    height: 0.8rem;
+    top: -0.16rem;
+    left: -0.13333rem;
+  }
+  .vux-header .vux-header-left .left-arrow:before {
+    border: 1px solid #fff;
+    border-width: 0.05333rem 0 0 0.05333rem;
+    width: 0.32rem;
+    height: 0.32rem;
+    top: 0.21333rem;
+    left: 0.18667rem;
+  }
+  .vux-header-title-area,
+  .vux-header .vux-header-title {
+    height: 1.06667rem;
+    margin: 0 2.34667rem;
+  }
+  .vux-header .vux-header-title {
+    line-height: 1.06667rem;
+    font-size: 0.48rem;
+  }
+  .vux-header .vux-header-right a {
+    color: #fff;
+  }
+  .vux-header .vux-header-left,
+  .vux-header .vux-header-right {
+    top: 50%;
+    margin-top: -0.253rem;
+    font-size: 0.37333rem;
+    line-height: 0.56rem;
+  }
+  .vux-prompt .vux-prompt-msgbox {
+    width: 6.4rem;
+    height: 0.8rem;
+  }
+
+  .vux-slider > .vux-indicator > a > .vux-icon-dot,
+  .vux-slider .vux-indicator-right > a > .vux-icon-dot {
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 0.16rem;
+    background-color: #d8d8d8;
+  }
+  .vux-slider > .vux-indicator > a > .vux-icon-dot.active,
+  .vux-slider .vux-indicator-right > a > .vux-icon-dot.active {
+    width: 0.26667rem;
+  }
+  .vux-indicator-center > a:first-child i.active {
+    background: #6afff4;
+  }
+  .vux-indicator-center > a:nth-child(2) i.active {
+    background: #cadae6;
+  }
+  .vux-indicator-center > a:last-child i.active {
+    background: #e1c893;
+  }
+}
