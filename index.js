@@ -23,6 +23,6 @@ import './plugins/components.js'
 import router from './plugins/vueRouter'
 
 export {
-  minxins,
+  mixins,
   router
 }
