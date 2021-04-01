@@ -2,7 +2,6 @@
 // 引入config文件
 import './lib/config/ele.js'
 import './lib/config/rem.js'
-import './lib/config/vant.js'
 console.log('执行');
 
 // 引入全局指令
