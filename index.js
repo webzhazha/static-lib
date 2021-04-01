@@ -1,7 +1,3 @@
-// 引入style文件
-import './lib/style/common.scss'
-import './lib/style/health.scss'
-
 // 引入config文件
 import './lib/config/ele.js'
 import './lib/config/rem.js'
