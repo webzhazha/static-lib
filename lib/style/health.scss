@@ -1,0 +1,564 @@
+.healthindex {
+  .mb2 {
+    margin-bottom: 0.05333rem;
+  }
+  .container {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+  .mb15 {
+    margin-bottom: 0.4rem;
+  }
+  .vux-icon-dot.active {
+    width: 10px;
+  }
+  .vux-header {
+    background-color: #fff;
+    color: #000;
+    > .vux-header-title {
+      color: #000;
+    }
+    .left-arrow::before {
+      border: 2px solid #333 !important;
+      border-width: 2px 0 0 2px !important;
+    }
+    .vux-header-right a {
+      color: #333 !important;
+    }
+  }
+  .vux-swiper-desc {
+    display: none;
+  }
+}
+.bg_FEF {
+  background-color: #fef6ce;
+}
+.bor_b {
+  border-bottom: 0.02667rem solid #f1f1f1;
+}
+.bor_t {
+  border-top: 0.02667rem solid #f1f1f1;
+}
+.pl30 {
+  padding-left: 0.8rem;
+}
+.pr15 {
+  padding-right: 0.4rem;
+}
+.health-custom-bottom {
+  i {
+    background-color: #fff !important;
+  }
+  i.active {
+    background-color: #00d2c3 !important;
+    width: 10px !important;
+  }
+}
+.pic_100_75 {
+  width: 2.66667rem;
+  height: 2rem;
+}
+.pic_80_60 {
+  width: 2.13333rem;
+  height: 1.6rem;
+}
+.vtm {
+  vertical-align: middle;
+}
+.pb30 {
+  padding-bottom: 0.8rem;
+}
+.mt25 {
+  margin-top: 0.66667rem;
+}
+.h100 {
+  height: 2.66667rem;
+}
+.mb20 {
+  margin-bottom: 0.53333rem;
+}
+.mb12 {
+  margin-bottom: 0.32rem;
+}
+.mt30 {
+  margin-top: 0.8rem;
+}
+.health_nodata {
+  width: 1.86667rem;
+}
+.mint-msgbox {
+  border-radius: 0.13333rem;
+}
+.address {
+  .mint-msgbox-content {
+    padding: 0.66667rem 1.33333rem;
+  }
+  .mint-msgbox-message {
+    line-height: 0.53333rem;
+    width: 86%;
+    text-align: left;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 330px) {
+    .mint-msgbox-message {
+      width: 75%;
+    }
+  }
+  .mint-msgbox-confirm {
+    color: #007aff;
+  }
+  .mint-msgbox-btns {
+    height: 1.33333rem;
+    line-height: 1.33333rem;
+  }
+  .mint-msgbox-btn {
+    font-size: 0.42667rem;
+  }
+}
+.address_manage,
+.family_services {
+  .vux-check-icon > .weui-icon-success:before,
+  .vux-check-icon > .weui-icon-success-circle:before {
+    color: #00d2c3;
+  }
+  .vux-cell-box:before {
+    border-top: none;
+  }
+  .weui-cell {
+    background-color: #fff;
+    margin-bottom: 0.26667rem;
+    padding: 0.45333rem 0.4rem;
+  }
+  .weui-cell_access .weui-cell__ft {
+    padding-right: 13px;
+    position: relative;
+    &::after {
+      content: ' ';
+      display: inline-block;
+      height: 6px;
+      width: 6px;
+      border-width: 2px 2px 0 0;
+      border-color: #c8c8cd;
+      border-style: solid;
+      -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+      transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+      position: relative;
+      top: -2px;
+      position: absolute;
+      top: 50%;
+      margin-top: -4px;
+      right: 2px;
+    }
+  }
+}
+.health {
+  .weui-wepay-flow,
+  .weui-wepay-flow-auto {
+    padding: 0.64rem 0.45333rem 0.53333rem;
+  }
+  .weui-wepay-flow__line {
+    width: 2px !important;
+    left: 0.16rem !important;
+    height: 33% !important;
+    color: #ddd !important;
+  }
+  .weui-wepay-flow_vertical .weui-wepay-flow__process {
+    width: 2px !important;
+    // left:0.02667rem;
+  }
+  .weui-wepay-flow__state {
+    width: 0.26667rem !important;
+    height: 0.26667rem !important;
+  }
+  .weui-wepay-flow__process {
+    background-color: #00d2c3;
+  }
+  .weui-wepay-flow__li_done .weui-wepay-flow__state {
+    width: 0.45333rem !important;
+    height: 0.45333rem !important;
+    background-color: #00d2c3;
+    border: 0.08rem solid #99ede7;
+    left: -0.02667rem !important;
+  }
+  .weui-wepay-flow__bd {
+    align-items: end !important;
+  }
+  .weui-wepay-flow__li .weui-wepay-flow__state {
+    left: 0.05333rem;
+  }
+}
+.max_150 {
+  max-width: 4rem;
+}
+.input_item {
+  min-height: 1.33333rem;
+  line-height: 1.33333rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.4rem;
+  border-bottom: 1px solid #f5f5f5;
+  background-color: #fff;
+  align-items: center;
+}
+
+.join_step {
+  .vux-check-icon > .weui-icon-success:before,
+  .vux-check-icon > .weui-icon-success-circle:before {
+    color: #00d2c3;
+  }
+  .vux-cell-box:before {
+    border-top: none;
+  }
+  .weui-cell {
+    background-color: #fff;
+    margin-bottom: 0.26667rem;
+    height: 1.33333rem;
+    line-height: 1.33333rem;
+  }
+  .weui-cell:before {
+    border-top: none !important;
+  }
+  .weui-cell_access .weui-cell__ft {
+    padding-right: 13px;
+    position: relative;
+    &::after {
+      content: ' ';
+      display: inline-block;
+      height: 6px;
+      width: 6px;
+      border-width: 2px 2px 0 0;
+      border-color: #c8c8cd;
+      border-style: solid;
+      -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+      transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+      position: relative;
+      top: -2px;
+      position: absolute;
+      top: 50%;
+      margin-top: -4px;
+      right: 2px;
+    }
+  }
+  .vux-popup-picker-value {
+    color: #333;
+  }
+}
+.indent2 {
+  text-indent: 2em;
+}
+textarea {
+  resize: none;
+}
+.mint-toast {
+  z-index: 100000 !important;
+}
+.common_tab_bar {
+  border-bottom: 1px solid #f5f5f5;
+  /*display: flex;*/
+  background-color: #fff;
+  text-align: center;
+  .tab_item {
+    position: relative;
+    flex: 1;
+    &.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 0.05333rem;
+      width: 30%;
+      background-color: #00d2c3;
+    }
+  }
+}
+.fixedToTop {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.top44 {
+  top: 1.17333rem !important;
+}
+.product_img {
+  width: 2.66667rem;
+  height: 2rem;
+  border-radius: 0.10667rem;
+  margin-right: 0.26667rem;
+}
+.product_item {
+  .icon {
+    display: inline-block;
+    padding: 0 0.16rem;
+    height: 16px;
+    line-height: 14px;
+    background: rgba(255, 51, 51, 0.05);
+    border: 1px solid rgba(255, 51, 51, 0.1);
+    border-radius: 2px;
+    color: #ff3333;
+    font-size: 0.29333rem;
+  }
+  .w70 {
+    width: 1.86667rem;
+  }
+  .w140 {
+    width: 3.73333rem;
+  }
+}
+.product_btn {
+  display: inline-block;
+  padding: 0.10667rem 0.32rem;
+  border-radius: 0.53333rem;
+  border: 1px solid #dddddd;
+  &:not(:first-child) {
+    margin-left: 0.13333rem;
+  }
+}
+.icon_ding {
+  color: #fff;
+  display: inline-block;
+  background-color: #f55d3a;
+  width: 0.42667rem;
+  height: 0.42667rem;
+  text-align: center;
+  line-height: 0.42667rem;
+  font-size: 0.26667rem;
+  border-radius: 0.05333rem;
+}
+.fs26 {
+  font-size: 0.69333rem;
+}
+.pb25 {
+  padding-bottom: 0.66667rem;
+}
+.mt_10 {
+  margin-top: -0.26667rem;
+}
+.lhh64 {
+  height: 1.70667rem;
+  line-height: 1.70667rem;
+}
+.bg_yellow {
+  background-color: #ffb937;
+}
+.bg_main {
+  background-color: #00d2c3;
+}
+.bg_f55 {
+  background-color: #f55d3a;
+}
+.c_f55 {
+  color: #f55d3a;
+}
+.bg_62C {
+  background-color: #62cd02;
+}
+
+.fs32 {
+  font-size: 0.85333rem;
+}
+.h44 {
+  height: 1.17333rem;
+}
+.h20 {
+  height: 0.53333rem;
+}
+.fullbutton:active {
+  opacity: 0.8;
+}
+.align_top {
+  vertical-align: top;
+}
+.w220 {
+  width: 5.86667rem;
+}
+.weui-icon-success {
+  color: #00d2c3 !important;
+}
+.vux-check-icon > .weui-icon-success:before,
+.vux-check-icon > .weui-icon-success-circle:before {
+  color: #00d2c3 !important;
+}
+.inherit {
+  display: inherit;
+}
+.imgicon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.133333rem;
+}
+.c-price {
+  color: #f27b17;
+}
+.vux-datetime-confirm {
+  color: #ffb937 !important;
+}
+.health .vux-popup-header-right,
+.health .vux-popup-header-left {
+  color: #00c1ae;
+}
+.health {
+  .vux-popup-header {
+    background-color: #fff;
+  }
+  .vux-confirm {
+    .weui-dialog__btn_primary {
+      color: #00c1ae;
+    }
+  }
+  .vux-popup-dialog {
+    z-index: 1001;
+  }
+  .scroller-item {
+    font-size: 0.426667rem;
+    // transition: all .1s;
+  }
+  .scroller-item-selected {
+    font-size: 0.533333rem;
+  }
+}
+.show-time .vux-popup-header-right {
+  color: #666;
+}
+.c_f50 {
+  color: #f50;
+}
+.c_62CD02 {
+  color: #62cd02;
+}
+.mt_15 {
+  margin-top: -0.4rem;
+}
+.p20 {
+  padding: 0.533333rem;
+}
+.fs40 {
+  font-size: 1.066667rem;
+}
+.coupan-type {
+  display: inline-block;
+  // width: 1.493333rem;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  box-sizing: content-box;
+  border: 1px solid #fff;
+  font-size: 0.266667rem;
+  text-align: center;
+  border-radius: 0.053333rem;
+  margin-right: 0.133333rem;
+  padding: 0 0.106667rem;
+  &.blue {
+    color: #33b2ef;
+    border-color: rgba(51, 178, 239, 0.4);
+  }
+  &.green {
+    color: #62cd02;
+    border-color: rgba(98, 205, 2, 0.4);
+  }
+  &.orange {
+    color: #f27b17;
+    border-color: rgba(242, 123, 23, 0.4);
+  }
+}
+.coupan-type-icon {
+  display: inline-block;
+  width: 1.493333rem;
+  height: 0.48rem;
+  box-sizing: content-box;
+  padding: 0 0.106667rem;
+  background-size: contain;
+}
+.cf33 {
+  color: #f33;
+}
+.address_icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+}
+.pl25 {
+  padding-left: 0.666667rem;
+}
+.c999 {
+  color: #999;
+}
+.mt_4 {
+  margin-top: -0.106667rem;
+}
+.mb25 {
+  margin-bottom: 0.666667rem;
+}
+.body_fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.image_70_70 {
+  width: 1.866667rem;
+  height: 1.866667rem;
+}
+.c_ffc04f {
+  color: #ffc04f;
+}
+.product-item .tag::before {
+  text-align: center;
+  line-height: 0.48rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.906667rem;
+  height: 0.48rem;
+  border-radius: 0.053333rem 0 0.213333rem 0;
+  color: #fff;
+  font-size: 0.32rem;
+}
+.product-item .hot.tag::before {
+  content: '热卖';
+  background-color: #f55d3a;
+}
+.product-item .sale.tag::before {
+  content: '优惠';
+  background-color: #ffb937;
+}
+.app_refund {
+  .vux-popup-header {
+    background-color: #f9f9f9;
+  }
+  .vux-popup-header-right {
+    color: #ffc50d;
+  }
+}
+.cf55 {
+  color: #f55d3a;
+}
+.flex-shrink0 {
+  flex-shrink: 0;
+}
+.coupon-name {
+  display: inline-block;
+  border: 2px solid #ddd;
+  border-width: 1px 5px 1px 5px;
+  padding: 2px 4px;
+  line-height: 1;
+  overflow: hidden;
+  font-size: 12px;
+  color: #999;
+  margin-right: 0.133333rem;
+  border-image: url(/wechat/img/health/border_coupon.png) 2 10 2 10 repeat;
+}
+.lhh20 {
+  height: 0.533333rem;
+  line-height: 0.533333rem;
+}
+
+.self-flex-start {
+  align-self: flex-start;
+}
+.c_00d7c4 {
+  color: #00d7c4;
+}
