@@ -17,7 +17,7 @@ import './lib/plugins/prototype.js'
 import router from './lib/plugins/vueRouter'
 
 // 引入utils文件
-import * as util from './utils/util.js'
+import * as util from './lib/utils/util.js'
 console.log(util);
 export {
   router,
